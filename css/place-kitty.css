@@ -27,7 +27,11 @@
 
 /* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
 
+<<<<<<< HEAD
 #ball+img {
+=======
+#ball>img {
+>>>>>>> 30aaad0e30454937d70bdb949bdb9d9e6c841374
   position: absolute;
   z-index: 4;
   top: 260px;
